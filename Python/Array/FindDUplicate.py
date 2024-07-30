@@ -1,10 +1,10 @@
 
 def Duplicate(arr):
     seen = []
-    duplicate = []
+    duplicate = set()
     for i in arr:
         if i in seen:
-            duplicate.append(i)
+            duplicate.add(i)
         else:
             seen.append(i)
     return duplicate

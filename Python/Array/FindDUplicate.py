@@ -1,12 +1,12 @@
 
 def Duplicate(arr):
-    seen = set()
-    duplicate = set()
+    seen = []
+    duplicate = []
     for i in arr:
         if i in seen:
-            duplicate.add(i)
+            duplicate.append(i)
         else:
-            seen.add(i)
+            seen.append(i)
     return duplicate
 
 arr = [1,2,3,1,1,4,4,5]

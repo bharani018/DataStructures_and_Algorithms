@@ -1,13 +1,12 @@
-
-def Duplicate(arr):
+def FindDplicates(arr):
     seen = []
-    duplicate = set()
+    dplicate = []
+    cnt = 0
     for i in arr:
-        if i in seen:
-            duplicate.add(i)
+        if(i in seen):
+            dplicate.append(i)
         else:
             seen.append(i)
-    return duplicate
-
-arr = [1,2,3,1,1,4,4,5]
-print(Duplicate(arr))
+    return dplicate
+arr = [1,2,2,4,5,1]
+print(FindDplicates(arr))

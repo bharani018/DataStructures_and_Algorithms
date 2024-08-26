@@ -23,3 +23,4 @@ def ProductExceptSelf(arr):
 
 arr = [1,2,3,4]
 print(ProductExceptSelf(arr))
+print([0]*3)

@@ -10,8 +10,8 @@ def TwoSUM(arr, target):
             first+=1
         else:
             end-=1
-    return None
-arr = [4,2,6,1,5,9]
+    
+arr = [4,2,1,5,9,3]
 target = 7
 
 print(TwoSUM(arr, target))

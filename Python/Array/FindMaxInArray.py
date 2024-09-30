@@ -9,5 +9,3 @@ def MaxEle(arr):
 
 arr = [3,6,2,7,9,23]
 print(MaxEle(arr))
-
-

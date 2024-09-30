@@ -10,4 +10,3 @@ def SecondLargest(arr):
 
 arr = [3,5,9,8,2]
 print(SecondLargest(arr))
-            

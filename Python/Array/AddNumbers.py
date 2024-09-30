@@ -7,3 +7,19 @@ def sortList(head):
 
 head = [4,3,2,1]
 print(sortList(head))
+
+def addNumbers(head):
+    x = []
+    num = head
+    b = head
+    while b>10:
+        num = b
+        b=0
+        while num>0:
+            a = num%10
+            b+=a
+            num//=10
+            
+    return b
+head = 1239
+print(addNumbers(head))

@@ -1,0 +1,21 @@
+
+class Salary:
+    def __init__(self, sal, bonus):
+        self.sal = sal
+        self.bonus = bonus
+    
+    def total_sal(self):
+        return self.bonus + self.sal
+
+class Employee:
+    def __init__(self, name, age, n):
+        self.name = name
+        self.age = age
+        self.object = n
+        
+    def info(self):
+        return self.object.total_sal()
+
+n = Salary(90000, 12000)
+x = Employee('abc', 20, n)
+print(x.info())
